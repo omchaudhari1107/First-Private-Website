@@ -1,0 +1,320 @@
+body {
+    background-color: khaki;
+}
+
+.box {
+    padding: 3px 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 45rem;
+    height: 25rem;
+    box-shadow: 6px 6px 6px 6px rgb(255, 0, 0);
+    background-color: rgb(255, 250, 210);
+    border-radius: 30px;
+    transition-duration: .5s;
+}
+
+.box:hover {
+    padding: 10px 10px;
+}
+
+.box img {
+    display: block;
+    width: 30%;
+    height: auto;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.text p {
+    margin: 40px 100px;
+    color: black;
+    text-align: center;
+}
+
+/* New content */
+h2 {
+    font-family: 'Titillium Web', sans-serif;
+    color: red;
+    text-align: center;
+    font-size: xx-large;
+}
+
+a svg {
+    width: 25px;
+    height: 25px;
+}
+
+.social-tags {
+    text-align: center;
+}
+
+.social-tags a svg {
+    padding: 40px 40px;
+    transition-duration: .5s;
+}
+
+.social-tags a :hover {
+    fill: brown;
+}
+
+
+/* responsive content */
+@media screen and (max-width:505px) {
+    body {
+        background-color: khaki;
+    }
+
+    .box {
+        /* border: 2px solid red; */
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        width: 40%;
+        height: 10rem;
+        box-shadow: 6px 6px 6px 6px rgb(255, 0, 0);
+        background-color: rgb(255, 250, 210);
+        border-radius: 30px;
+        transition-duration: .5s;
+    }
+
+    .box:hover {
+        padding: 10px 10px;
+    }
+
+    .box img {
+        display: block;
+        width: 40%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+    }
+
+    .text p {
+        margin: 20px 10px;
+        color: black;
+        text-align: center;
+        font-size: small;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:730px) {
+    body {
+        background-color: khaki;
+    }
+
+    .box {
+        padding: 3px 3px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        width: 25rem;
+        height: 15rem;
+        box-shadow: 4px 4px 4px 4px rgb(255, 0, 0);
+        background-color: rgb(255, 250, 210);
+        border-radius: 30px;
+        transition-duration: .5s;
+    }
+
+    .box:hover {
+        padding: 10px 10px;
+    }
+
+    .box img {
+        display: block;
+        width: 40%;
+        height: auto;
+        margin: auto;
+        border-radius: 50%;
+    }
+
+    .text p {
+        margin: 50px 10px;
+        color: black;
+        text-align: center;
+    }
+
+    /* New content */
+    h2 {
+        font-family: 'Titillium Web', sans-serif;
+        color: red;
+        text-align: center;
+        font-size: large;
+    }
+
+    a svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .social-tags {
+        text-align: center;
+    }
+
+    .social-tags a svg {
+        padding: 10px 10px;
+        transition-duration: .5s;
+    }
+
+    .social-tags a :hover {
+        fill: brown;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:320px) {
+    body {
+        background-color: khaki;
+    }
+
+    .box {
+        padding: 3px 3px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        width: 10rem;
+        height: 13rem;
+        box-shadow: 3px 3px 3px 3px rgb(255, 0, 0);
+        background-color: rgb(255, 250, 210);
+        border-radius: 30px;
+        transition-duration: .5s;
+    }
+
+    .box:hover {
+        padding: 10px 10px;
+    }
+
+    .box img {
+        display: block;
+        width: 40%;
+        height: auto;
+        margin: auto;
+        border-radius: 50%;
+    }
+
+    .text p {
+        margin: 13px 10px;
+        color: black;
+        text-align: center;
+    }
+}
+
+
+
+@media screen and (max-width:440px) {
+    body {
+        background-color: khaki;
+    }
+
+    .box {
+        padding: 3px 3px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        width: 15rem;
+        height: 15rem;
+        box-shadow: 2px 2px 2px 2px rgb(255, 0, 0);
+        background-color: rgb(255, 250, 210);
+        border-radius: 30px;
+        transition-duration: .5s;
+    }
+
+    .box:hover {
+        padding: 10px 10px;
+    }
+
+    .box img {
+        display: block;
+        width: 40%;
+        height: auto;
+        margin: auto;
+        border-radius: 50%;
+    }
+
+    .text p {
+        margin: 13px 1px;
+        color: black;
+        text-align: center;
+    }
+
+    h2 {
+        font-family: 'Titillium Web', sans-serif;
+        color: red;
+        text-align: center;
+        font-size: medium;
+    }
+}
+
+
+@media screen and (max-width:250px) {
+    body {
+        background-color: khaki;
+    }
+
+    .box {
+        padding: 3px 3px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        width: 7rem;
+        height: 7rem;
+        box-shadow: 1px 1px 1px 1px rgb(255, 0, 0);
+        background-color: rgb(255, 250, 210);
+        border-radius: 30px;
+        transition-duration: .5s;
+    }
+
+    .box:hover {
+        padding: 7px 7px;
+    }
+
+    .box img {
+        display: block;
+        width: 40%;
+        height: auto;
+        margin: auto;
+        border-radius: 50%;
+    }
+
+    .text p {
+        font-size: .6rem;
+        margin: 13px 1px;
+        color: black;
+        text-align: center;
+    }
+
+    /* New content */
+    h2 {
+        font-family: 'Titillium Web', sans-serif;
+        color: red;
+        text-align: center;
+        font-size: xx-small;
+    }
+
+    a svg {
+        width: 10px;
+        height: 10px;
+    }
+
+    .social-tags {
+        text-align: center;
+    }
+
+    .social-tags a svg {
+        padding: 5px 0px;
+        transition-duration: .5s;
+    }
+
+    .social-tags a :hover {
+        fill: brown;
+    }
+}
