@@ -1,0 +1,69 @@
+.skill {
+    display: flex;
+}
+.skill>.group{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.skill>.group>div{
+    color: black;
+    margin-left: 9px;
+    font-family: 'Bebas Neue', cursive;
+}
+.skill>.group>svg{
+    width: 3em;
+}
+/* @media screen and (max-width:505px) */
+/* @media screen and (max-width:730px) */
+@media screen and (max-width:440px)
+{
+    .skill {
+        display: flex;
+    }
+    .skill>.group{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    } 
+    .skill>.group>div{
+        color: black;
+        font-size: small;
+        margin-left: 7px;
+    font-family: 'Bebas Neue', cursive;
+    }
+    .skill>.group>svg{
+        width: 2em;
+    }
+}
+@media screen and (max-width:306px){
+    .skill {
+        display: flex;
+    }
+    .skill>.group{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    } 
+    .skill>.group>div{
+        color: black;
+        font-size: smaller;
+        margin-left: 2px;
+    font-family: 'Bebas Neue', cursive;
+    }
+    .skill>.group>svg{
+        width: 1.4em;
+        /* height: 2px; */
+    }
+} 
+@media screen and (max-width:204px)
+{
+    .skill>.group>div{
+        color: black;
+        font-size: xx-small;
+    font-family: 'Bebas Neue', cursive;
+    }
+    
+}
+/* @media screen and (max-width:169px)
+@media screen and (max-width:70px) */
