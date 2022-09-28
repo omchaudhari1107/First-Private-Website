@@ -28,7 +28,7 @@ body {
 }
 
 .text p {
-    margin: 40px 100px;
+    margin: 0px 100px;
     color: black;
     text-align: center;
 }
@@ -59,6 +59,9 @@ a svg {
     fill: brown;
 }
 
+#about-me {
+    margin-top: 20px;
+}
 
 /* responsive content */
 @media screen and (max-width:505px) {
@@ -93,12 +96,15 @@ a svg {
     }
 
     .text p {
-        margin: 20px 10px;
+        /* margin: -19px 10px; */
         color: black;
         text-align: center;
         font-size: small;
     }
 
+    #about-me {
+        margin-top: 20px;
+    }
 
 }
 
@@ -135,7 +141,7 @@ a svg {
     }
 
     .text p {
-        margin: 50px 10px;
+        margin: 10px 10px;
         color: black;
         text-align: center;
     }
@@ -166,6 +172,9 @@ a svg {
         fill: brown;
     }
 
+    #about-me {
+        margin-top: 20px;
+    }
 
 }
 
@@ -202,9 +211,30 @@ a svg {
     }
 
     .text p {
-        margin: 13px 10px;
+        margin: 0px 10px;
         color: black;
         text-align: center;
+    }
+
+    
+
+    .social-tags {
+        text-align: center;
+    }
+
+    .social-tags a svg {
+        width: 12px;
+        height: 50px;
+        /* padding: 10px 10px; */
+        transition-duration: .5s;
+    }
+
+    .social-tags a :hover {
+        fill: brown;
+    }
+
+    #about-me {
+        margin-top: 10px;
     }
 }
 
@@ -221,7 +251,7 @@ a svg {
         margin-right: auto;
         margin-top: 10px;
         width: 15rem;
-        height: 15rem;
+        height: 14rem;
         box-shadow: 2px 2px 2px 2px rgb(255, 0, 0);
         background-color: rgb(255, 250, 210);
         border-radius: 30px;
@@ -252,6 +282,24 @@ a svg {
         text-align: center;
         font-size: medium;
     }
+    .social-tags {
+        text-align: center;
+    }
+
+    .social-tags a svg {
+        width: 15px;
+        height: 50px;
+        /* padding: 10px 10px; */
+        transition-duration: .5s;
+    }
+
+    .social-tags a :hover {
+        fill: brown;
+    }
+
+    #about-me {
+        margin-top: 10px;
+    }
 }
 
 
@@ -266,10 +314,10 @@ a svg {
         margin-right: auto;
         margin-top: 10px;
         width: 7rem;
-        height: 7rem;
+        height: 6rem;
         box-shadow: 1px 1px 1px 1px rgb(255, 0, 0);
         background-color: rgb(255, 250, 210);
-        border-radius: 30px;
+        border-radius: 20px;
         transition-duration: .5s;
     }
 
@@ -299,10 +347,71 @@ a svg {
         text-align: center;
         font-size: xx-small;
     }
+    .social-tags {
+        text-align: center;
+    }
 
-    a svg {
-        width: 10px;
-        height: 10px;
+    .social-tags a svg {
+        width: 8px;
+        height: 8px;
+        padding: 5px 0px;
+        transition-duration: .5s;
+    }
+
+    .social-tags a :hover {
+        fill: brown;
+    }
+}
+
+
+@media screen and (max-width:204px) {
+    body {
+        background-color: khaki;
+    }
+
+    .box {
+        padding: 3px 3px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        width: 7rem;
+        height: 5em;
+        box-shadow: 0.5px 0.5px 1px 1px rgb(255, 0, 0);
+        background-color: rgb(255, 250, 210);
+        border-radius: 10px;
+        transition-duration: .5s;
+    }
+
+    .box:hover {
+        padding: 5px 5px;
+    }
+
+    .box img {
+        display: block;
+        width: 20%;
+        height: auto;
+        margin: auto;
+        border-radius: 50%;
+    }
+
+    .text p {
+        font-size: .4rem;
+        margin: 13px 0px;
+        color: black;
+        text-align: center;
+    }
+
+    /* New content */
+    h2 {
+        font-family: 'Titillium Web', sans-serif;
+        color: red;
+        text-align: center;
+        font-size: xx-small;
+    }
+
+    svg {
+        width: 0px;
+        height: 0px;
     }
 
     .social-tags {
@@ -310,7 +419,132 @@ a svg {
     }
 
     .social-tags a svg {
-        padding: 5px 0px;
+        transition-duration: .5s;
+    }
+
+    .social-tags a :hover {
+        fill: brown;
+    }
+}
+
+@media screen and (max-width:169px) {
+    body {
+        background-color: khaki;
+    }
+
+    .box {
+        padding: 3px 3px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        width: 4rem;
+        height: 4em;
+        box-shadow: 0.5px 0.5px 1px 1px rgb(255, 0, 0);
+        background-color: rgb(255, 250, 210);
+        border-radius: 10px;
+        transition-duration: .5s;
+    }
+
+    .box:hover {
+        padding: 3px 3px;
+    }
+
+    .box img {
+        display: block;
+        width: 20%;
+        height: auto;
+        margin: auto;
+        border-radius: 50%;
+    }
+
+    .text p {
+        font-size: .4rem;
+        margin: 13px 0px;
+        color: black;
+        text-align: center;
+    }
+
+    /* New content */
+    h2 {
+        font-family: 'Titillium Web', sans-serif;
+        color: red;
+        text-align: center;
+        font-size: 6px;
+    }
+
+    svg {
+        width: 0px;
+        height: 0px;
+    }
+
+    .social-tags {
+        text-align: center;
+    }
+
+    .social-tags a svg {
+        width: 7px;
+        height: 7px;
+        transition-duration: .5s;
+    }
+
+    .social-tags a :hover {
+        fill: brown;
+    }
+}
+
+@media screen and (max-width:70px) {
+    body {
+        background-color: khaki;
+    }
+
+    .box {
+        padding: 3px 3px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        width: 2em;
+        height: 3em;
+        box-shadow: 0.5px 0.5px 1px 1px rgb(255, 0, 0);
+        background-color: rgb(255, 250, 210);
+        border-radius: 10px;
+        transition-duration: .5s;
+    }
+
+    .box img {
+        display: block;
+        width: 20%;
+        height: auto;
+        margin: auto;
+        border-radius: 50%;
+    }
+
+    .text p {
+        font-size: .2rem;
+        margin: 13px 0px;
+        color: black;
+        text-align: center;
+    }
+
+    /* New content */
+    h2 {
+        font-family: 'Titillium Web', sans-serif;
+        color: red;
+        text-align: center;
+        font-size: 6px;
+    }
+
+    svg {
+        width: 0px;
+        height: 0px;
+    }
+
+    .social-tags {
+        text-align: center;
+    }
+
+    .social-tags a svg {
+        width: 2px;
+        height: 2px;
         transition-duration: .5s;
     }
 
