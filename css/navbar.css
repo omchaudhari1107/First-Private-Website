@@ -1,4 +1,4 @@
-* {
+* { -webkit-tap-highlight-color: transparent;
     margin: 0;
     padding: 0;
     color: white;
@@ -35,13 +35,17 @@
 }
 
 #navbar ul li a {
+    
+        -webkit-tap-highlight-color: transparent;
+
+    
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
     transition-duration: .4s;
     padding: 3px 0px;
 }
 
-#navbar ul li a:hover {
+#navbar ul li a:hover { -webkit-tap-highlight-color: transparent;
     border-radius: 14px;
     background-color: white;
     color: black;
@@ -69,14 +73,14 @@
     }
 
     #navbar ul li a {
-        
+        -webkit-tap-highlight-color: transparent;
         text-decoration: none;
         font-family: 'Oswald', sans-serif;
         transition-duration: .4s;
         padding: 3px 0px;
     }
 
-    #navbar ul li a:hover {
+    #navbar ul li a:hover { -webkit-tap-highlight-color: transparent;
         border-radius: 10px;
         background-color: white;
         color: black;
@@ -107,14 +111,14 @@
     }
 
     #navbar ul li a {
-        
+        -webkit-tap-highlight-color: transparent;
         text-decoration: none;
         font-family: 'Oswald', sans-serif;
         transition-duration: .4s;
         padding: 3px 0px;
     }
 
-    #navbar ul li a:hover {
+    #navbar ul li a:hover { -webkit-tap-highlight-color: transparent;
         border-radius: 10px;
         background-color: white;
         color: black;
@@ -146,14 +150,14 @@
     }
 
     #navbar ul li a {
-        
+        -webkit-tap-highlight-color: transparent;
         text-decoration: none;
         font-family: 'Oswald', sans-serif;
         transition-duration: .4s;
         padding: 3px 0px;
     }
 
-    #navbar ul li a:hover {
+    #navbar ul li a:hover { -webkit-tap-highlight-color: transparent;
         border-radius: 10px;
         background-color: white;
         color: black;
@@ -185,7 +189,7 @@
         /* padding: 9px 20px; */
     }
 
-    #navbar ul li  {
+    #navbar ul li a {
         
         text-decoration: none;
         font-family: 'Oswald', sans-serif;
@@ -225,8 +229,8 @@
         padding: 0px 1px;
     }
 
-    #navbar ul li  {
-        
+    #navbar ul li a {
+        -webkit-tap-highlight-color: transparent;
         text-decoration: none;
         font-family: 'Oswald', sans-serif;
         transition-duration: .4s;
