@@ -28,7 +28,7 @@ body {
     border-radius: 50%;
 }
 
-.text p {
+.text p {font-family: 'Oswald', sans-serif;
     margin: 0px 100px;
     color: black;
     text-align: center;
@@ -96,7 +96,7 @@ a svg {
         border-radius: 50%;
     }
 
-    .text p {
+    .text p {font-family: 'Oswald', sans-serif;
         /* margin: -19px 10px; */
         color: black;
         text-align: center;
@@ -141,7 +141,7 @@ a svg {
         border-radius: 50%;
     }
 
-    .text p {
+    .text p {font-family: 'Oswald', sans-serif;
         margin: 10px 10px;
         color: black;
         text-align: center;
@@ -211,7 +211,7 @@ a svg {
         border-radius: 50%;
     }
 
-    .text p {
+    .text p {font-family: 'Oswald', sans-serif;
         margin: 0px 10px;
         color: black;
         text-align: center;
@@ -271,7 +271,7 @@ a svg {
         border-radius: 50%;
     }
 
-    .text p {
+    .text p {font-family: 'Oswald', sans-serif;
         margin: 13px 1px;
         color: black;
         text-align: center;
@@ -334,7 +334,7 @@ a svg {
         border-radius: 50%;
     }
 
-    .text p {
+    .text p {font-family: 'Oswald', sans-serif;
         font-size: .6rem;
         margin: 13px 1px;
         color: black;
