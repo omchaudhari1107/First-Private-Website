@@ -1,6 +1,13 @@
-*{ -webkit-tap-highlight-color: transparent;}
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
 body {
     background-color: khaki;
+}
+
+*p {
+    font-family: 'Oswald', sans-serif;
 }
 
 .box {
@@ -28,7 +35,8 @@ body {
     border-radius: 50%;
 }
 
-.text p {font-family: 'Oswald', sans-serif;
+.text p {
+    font-family: 'Oswald', sans-serif;
     margin: 0px 100px;
     color: black;
     text-align: center;
@@ -96,7 +104,8 @@ a svg {
         border-radius: 50%;
     }
 
-    .text p {font-family: 'Oswald', sans-serif;
+    .text p {
+        font-family: 'Oswald', sans-serif;
         /* margin: -19px 10px; */
         color: black;
         text-align: center;
@@ -141,7 +150,8 @@ a svg {
         border-radius: 50%;
     }
 
-    .text p {font-family: 'Oswald', sans-serif;
+    .text p {
+        font-family: 'Oswald', sans-serif;
         margin: 10px 10px;
         color: black;
         text-align: center;
@@ -211,13 +221,14 @@ a svg {
         border-radius: 50%;
     }
 
-    .text p {font-family: 'Oswald', sans-serif;
+    .text p {
+        font-family: 'Oswald', sans-serif;
         margin: 0px 10px;
         color: black;
         text-align: center;
     }
 
-    
+
 
     .social-tags {
         text-align: center;
@@ -271,7 +282,8 @@ a svg {
         border-radius: 50%;
     }
 
-    .text p {font-family: 'Oswald', sans-serif;
+    .text p {
+        font-family: 'Oswald', sans-serif;
         margin: 13px 1px;
         color: black;
         text-align: center;
@@ -283,6 +295,7 @@ a svg {
         text-align: center;
         font-size: medium;
     }
+
     .social-tags {
         text-align: center;
     }
@@ -334,7 +347,8 @@ a svg {
         border-radius: 50%;
     }
 
-    .text p {font-family: 'Oswald', sans-serif;
+    .text p {
+        font-family: 'Oswald', sans-serif;
         font-size: .6rem;
         margin: 13px 1px;
         color: black;
@@ -348,6 +362,7 @@ a svg {
         text-align: center;
         font-size: xx-small;
     }
+
     .social-tags {
         text-align: center;
     }
@@ -359,9 +374,11 @@ a svg {
         padding: 5px 0px;
         transition-duration: .5s;
     }
-    .social-tags a{
+
+    .social-tags a {
         -webkit-tap-highlight-color: transparent;
     }
+
     .social-tags a :hover {
         fill: brown;
     }
@@ -399,6 +416,7 @@ a svg {
     }
 
     .text p {
+        font-family: 'Oswald', sans-serif;
         font-size: .4rem;
         margin: 13px 0px;
         color: black;
@@ -426,9 +444,11 @@ a svg {
         -webkit-tap-highlight-color: transparent;
         transition-duration: .5s;
     }
-    .social-tags a{
+
+    .social-tags a {
         -webkit-tap-highlight-color: transparent;
     }
+
     .social-tags a :hover {
         fill: brown;
     }
@@ -465,6 +485,7 @@ a svg {
     }
 
     .text p {
+        font-family: 'Oswald', sans-serif;
         font-size: .4rem;
         margin: 13px 0px;
         color: black;
@@ -494,10 +515,12 @@ a svg {
         -webkit-tap-highlight-color: transparent;
         transition-duration: .5s;
     }
-    .social-tags a{
+
+    .social-tags a {
         -webkit-tap-highlight-color: transparent;
 
     }
+
     .social-tags a :hover {
         fill: brown;
     }
@@ -530,6 +553,7 @@ a svg {
     }
 
     .text p {
+        font-family: 'Oswald', sans-serif;
         font-size: .2rem;
         margin: 13px 0px;
         color: black;
@@ -559,10 +583,12 @@ a svg {
         -webkit-tap-highlight-color: transparent;
         transition-duration: .5s;
     }
-    .social-tags a{
+
+    .social-tags a {
         -webkit-tap-highlight-color: transparent;
 
     }
+
     .social-tags a :hover {
         fill: brown;
     }
