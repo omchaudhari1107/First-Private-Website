@@ -120,3 +120,122 @@
         color: black;
     }
 }
+
+@media screen and (max-width:250px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        background-color: black;
+        overflow-x:auto ;
+    }
+
+    .name {
+        font-size: .7rem;
+        text-align: center;
+    }
+    #navbar ul {
+        display: flex;
+        margin: auto;
+    }
+
+    #navbar ul li {
+        list-style-type: none;
+        font-size: .4rem;
+        padding: 9px 20px;
+    }
+
+    #navbar ul li a {
+        
+        text-decoration: none;
+        font-family: 'Oswald', sans-serif;
+        transition-duration: .4s;
+        padding: 3px 0px;
+    }
+
+    #navbar ul li a:hover {
+        border-radius: 10px;
+        background-color: white;
+        color: black;
+    }
+}
+
+
+@media screen and (max-width:169px){
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        background-color: black;
+        overflow-x:auto ;
+    }
+
+    .name {
+        font-size: .5rem;
+        text-align: center;
+    }
+    #navbar ul {
+        display: flex;
+        margin: auto;
+    }
+
+    #navbar ul li {
+        list-style-type: none;
+        font-size: .2rem;
+        /* padding: 9px 20px; */
+    }
+
+    #navbar ul li  {
+        
+        text-decoration: none;
+        font-family: 'Oswald', sans-serif;
+        transition-duration: .4s;
+        padding: 3px 8px;
+    }
+
+    #navbar ul li a:hover {
+        border-radius: 10px;
+        background-color: white;
+        color: black;
+    }
+}
+
+
+@media screen and (max-width:151px){
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        background-color: black;
+        overflow-x:auto ;
+    }
+
+    .name {
+        font-size: .2rem;
+        text-align: center;
+    }
+    #navbar ul {
+        display: flex;
+        margin: auto;
+    }
+
+    #navbar ul li {
+        list-style-type: none;
+        font-size: .2rem;
+        padding: 0px 1px;
+    }
+
+    #navbar ul li  {
+        
+        text-decoration: none;
+        font-family: 'Oswald', sans-serif;
+        transition-duration: .4s;
+        padding: 3px 1px;
+    }
+
+    #navbar ul li a:hover {
+        border-radius: 10px;
+        background-color: white;
+        color: black;
+    }
+}
