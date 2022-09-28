@@ -1,3 +1,4 @@
+*{ -webkit-tap-highlight-color: transparent;}
 body {
     background-color: khaki;
 }
@@ -352,12 +353,15 @@ a svg {
     }
 
     .social-tags a svg {
+        -webkit-tap-highlight-color: transparent;
         width: 8px;
         height: 8px;
         padding: 5px 0px;
         transition-duration: .5s;
     }
-
+    .social-tags a{
+        -webkit-tap-highlight-color: transparent;
+    }
     .social-tags a :hover {
         fill: brown;
     }
@@ -419,9 +423,12 @@ a svg {
     }
 
     .social-tags a svg {
+        -webkit-tap-highlight-color: transparent;
         transition-duration: .5s;
     }
-
+    .social-tags a{
+        -webkit-tap-highlight-color: transparent;
+    }
     .social-tags a :hover {
         fill: brown;
     }
@@ -484,9 +491,13 @@ a svg {
     .social-tags a svg {
         width: 7px;
         height: 7px;
+        -webkit-tap-highlight-color: transparent;
         transition-duration: .5s;
     }
+    .social-tags a{
+        -webkit-tap-highlight-color: transparent;
 
+    }
     .social-tags a :hover {
         fill: brown;
     }
@@ -545,9 +556,13 @@ a svg {
     .social-tags a svg {
         width: 2px;
         height: 2px;
+        -webkit-tap-highlight-color: transparent;
         transition-duration: .5s;
     }
+    .social-tags a{
+        -webkit-tap-highlight-color: transparent;
 
+    }
     .social-tags a :hover {
         fill: brown;
     }
