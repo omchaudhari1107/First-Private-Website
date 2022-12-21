@@ -5,7 +5,13 @@
 body {
     background-color: khaki;
 }
-
+.text>p>.ti{
+    text-decoration: dashed;
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    border-bottom:1px solid black ;
+}
 *p {
     font-family: 'Oswald', sans-serif;
 }
@@ -40,35 +46,87 @@ body {
     margin: 0px 100px;
     color: black;
     text-align: center;
+    font-size: large;
 }
 
 /* New content */
 h2 {
     font-family: 'Titillium Web', sans-serif;
-    color: red;
+    color: rgb(0, 128, 255);
     text-align: center;
     font-size: xx-large;
 }
-.type{
-     margin-top:-20px ;
+
+.type {
+    margin-top: 15px;
 }
+
 a svg {
     width: 25px;
     height: 25px;
+}
+
+/* logo color */
+a .bibi-linkedin {
+    transition-duration: .5s;
+}
+
+a .bibi-facebook {
+    transition-duration: .5s;
+}
+
+a .bibi-twitter {
+    transition-duration: .5s;
+}
+
+a .bibi-linkedin {
+    transition-duration: .5s;
+}
+
+a .bibi-stack-overflow {
+    transition-duration: .5s;
+}
+
+a .bibi-pinterest {
+    transition-duration: .5s;
+}
+
+a .instagram:hover {
+    fill: #333;
+}
+
+a .bibi-linkedin:hover {
+    fill: rgb(8, 0, 255);
+}
+
+a .bibi-facebook:hover {
+    fill: rgb(0, 110, 255);
+}
+
+a .bibi-twitter:hover {
+    fill: rgb(0, 170, 255);
+}
+
+a .bibi-stack-overflow:hover {
+    fill: rgb(255, 187, 0);
+}
+
+a .bibi-pinterest:hover {
+    fill: rgb(255, 0, 0);
 }
 
 .social-tags {
     text-align: center;
 }
 
-.social-tags a svg {
-    padding: 40px 40px;
+.social-tags a {
+    padding: 0px 30px;
     transition-duration: .5s;
 }
 
-.social-tags a :hover {
+/* .social-tags a :hover {
     fill: brown;
-}
+} */
 
 #about-me {
     margin-top: 20px;
@@ -99,7 +157,7 @@ a svg {
 
     .box img {
         display: block;
-        width: 40%;
+        width: 30%;
         height: auto;
         margin-left: auto;
         margin-right: auto;
@@ -118,6 +176,59 @@ a svg {
         margin-top: 20px;
     }
 
+    .social-tags a {
+        padding: 10px;
+        transition-duration: .5s;
+    }
+
+    /* logo color */
+    a .bibi-linkedin {
+        transition-duration: .5s;
+    }
+
+    a .bibi-facebook {
+        transition-duration: .5s;
+    }
+
+    a .bibi-twitter {
+        transition-duration: .5s;
+    }
+
+    a .bibi-linkedin {
+        transition-duration: .5s;
+    }
+
+    a .bibi-stack-overflow {
+        transition-duration: .5s;
+    }
+
+    a .bibi-pinterest {
+        transition-duration: .5s;
+    }
+
+    a .instagram:hover {
+        fill: #333;
+    }
+
+    a .bibi-linkedin:hover {
+        fill: rgb(8, 0, 255);
+    }
+
+    a .bibi-facebook:hover {
+        fill: rgb(0, 110, 255);
+    }
+
+    a .bibi-twitter:hover {
+        fill: rgb(0, 170, 255);
+    }
+
+    a .bibi-stack-overflow:hover {
+        fill: rgb(255, 187, 0);
+    }
+
+    a .bibi-pinterest:hover {
+        fill: rgb(255, 0, 0);
+    }
 }
 
 
@@ -132,11 +243,11 @@ a svg {
         margin-left: auto;
         margin-right: auto;
         margin-top: 10px;
-        width: 25rem;
+        width: 20rem;
         height: 15rem;
         box-shadow: 4px 4px 4px 4px rgb(255, 0, 0);
         background-color: rgb(255, 250, 210);
-        border-radius: 30px;
+        border-radius: 10px;
         transition-duration: .5s;
     }
 
@@ -166,17 +277,22 @@ a svg {
         text-align: center;
         font-size: large;
     }
-    .type{
-        margin-top: 0px;
+
+    .type {
+        margin-top: 10px;
     }
-    
+
     .social-tags {
         text-align: center;
     }
-    
+
     .social-tags a svg {
-        width: 20px;
-        height: 25px;
+
+        width: 15px;
+        height: 20px;
+    }
+
+    .social-tags a {
         padding: 10px 10px;
         transition-duration: .5s;
     }
@@ -189,6 +305,54 @@ a svg {
         margin-top: 20px;
     }
 
+    /* logo color */
+    a .bibi-linkedin {
+        transition-duration: .5s;
+    }
+
+    a .bibi-facebook {
+        transition-duration: .5s;
+    }
+
+    a .bibi-twitter {
+        transition-duration: .5s;
+    }
+
+    a .bibi-linkedin {
+        transition-duration: .5s;
+    }
+
+    a .bibi-stack-overflow {
+        transition-duration: .5s;
+    }
+
+    a .bibi-pinterest {
+        transition-duration: .5s;
+    }
+
+    a .instagram:hover {
+        fill: #333;
+    }
+
+    a .bibi-linkedin:hover {
+        fill: rgb(8, 0, 255);
+    }
+
+    a .bibi-facebook:hover {
+        fill: rgb(0, 110, 255);
+    }
+
+    a .bibi-twitter:hover {
+        fill: rgb(0, 170, 255);
+    }
+
+    a .bibi-stack-overflow:hover {
+        fill: rgb(255, 187, 0);
+    }
+
+    a .bibi-pinterest:hover {
+        fill: rgb(255, 0, 0);
+    }
 }
 
 
@@ -249,6 +413,55 @@ a svg {
 
     #about-me {
         margin-top: 10px;
+    }
+
+    /* logo color */
+    a .bibi-linkedin {
+        transition-duration: .5s;
+    }
+
+    a .bibi-facebook {
+        transition-duration: .5s;
+    }
+
+    a .bibi-twitter {
+        transition-duration: .5s;
+    }
+
+    a .bibi-linkedin {
+        transition-duration: .5s;
+    }
+
+    a .bibi-stack-overflow {
+        transition-duration: .5s;
+    }
+
+    a .bibi-pinterest {
+        transition-duration: .5s;
+    }
+
+    a .instagram:hover {
+        fill: #333;
+    }
+
+    a .bibi-linkedin:hover {
+        fill: rgb(8, 0, 255);
+    }
+
+    a .bibi-facebook:hover {
+        fill: rgb(0, 110, 255);
+    }
+
+    a .bibi-twitter:hover {
+        fill: rgb(0, 170, 255);
+    }
+
+    a .bibi-stack-overflow:hover {
+        fill: rgb(255, 187, 0);
+    }
+
+    a .bibi-pinterest:hover {
+        fill: rgb(255, 0, 0);
     }
 }
 
@@ -316,6 +529,55 @@ a svg {
     #about-me {
         margin-top: 10px;
     }
+
+    /* logo color */
+    a .bibi-linkedin {
+        transition-duration: .5s;
+    }
+
+    a .bibi-facebook {
+        transition-duration: .5s;
+    }
+
+    a .bibi-twitter {
+        transition-duration: .5s;
+    }
+
+    a .bibi-linkedin {
+        transition-duration: .5s;
+    }
+
+    a .bibi-stack-overflow {
+        transition-duration: .5s;
+    }
+
+    a .bibi-pinterest {
+        transition-duration: .5s;
+    }
+
+    a .instagram:hover {
+        fill: #333;
+    }
+
+    a .bibi-linkedin:hover {
+        fill: rgb(8, 0, 255);
+    }
+
+    a .bibi-facebook:hover {
+        fill: rgb(0, 110, 255);
+    }
+
+    a .bibi-twitter:hover {
+        fill: rgb(0, 170, 255);
+    }
+
+    a .bibi-stack-overflow:hover {
+        fill: rgb(255, 187, 0);
+    }
+
+    a .bibi-pinterest:hover {
+        fill: rgb(255, 0, 0);
+    }
 }
 
 
@@ -344,7 +606,7 @@ a svg {
     .box img {
         display: block;
         width: 40%;
-        height:45%;
+        height: 45%;
         margin: auto;
         border-radius: 50%;
     }
@@ -383,6 +645,55 @@ a svg {
 
     .social-tags a :hover {
         fill: brown;
+    }
+
+    /* logo color */
+    a .bibi-linkedin {
+        transition-duration: .5s;
+    }
+
+    a .bibi-facebook {
+        transition-duration: .5s;
+    }
+
+    a .bibi-twitter {
+        transition-duration: .5s;
+    }
+
+    a .bibi-linkedin {
+        transition-duration: .5s;
+    }
+
+    a .bibi-stack-overflow {
+        transition-duration: .5s;
+    }
+
+    a .bibi-pinterest {
+        transition-duration: .5s;
+    }
+
+    a .instagram:hover {
+        fill: #333;
+    }
+
+    a .bibi-linkedin:hover {
+        fill: rgb(8, 0, 255);
+    }
+
+    a .bibi-facebook:hover {
+        fill: rgb(0, 110, 255);
+    }
+
+    a .bibi-twitter:hover {
+        fill: rgb(0, 170, 255);
+    }
+
+    a .bibi-stack-overflow:hover {
+        fill: rgb(255, 187, 0);
+    }
+
+    a .bibi-pinterest:hover {
+        fill: rgb(255, 0, 0);
     }
 }
 
@@ -453,6 +764,55 @@ a svg {
 
     .social-tags a :hover {
         fill: brown;
+    }
+
+    /* logo color */
+    a .bibi-linkedin {
+        transition-duration: .5s;
+    }
+
+    a .bibi-facebook {
+        transition-duration: .5s;
+    }
+
+    a .bibi-twitter {
+        transition-duration: .5s;
+    }
+
+    a .bibi-linkedin {
+        transition-duration: .5s;
+    }
+
+    a .bibi-stack-overflow {
+        transition-duration: .5s;
+    }
+
+    a .bibi-pinterest {
+        transition-duration: .5s;
+    }
+
+    a .instagram:hover {
+        fill: #333;
+    }
+
+    a .bibi-linkedin:hover {
+        fill: rgb(8, 0, 255);
+    }
+
+    a .bibi-facebook:hover {
+        fill: rgb(0, 110, 255);
+    }
+
+    a .bibi-twitter:hover {
+        fill: rgb(0, 170, 255);
+    }
+
+    a .bibi-stack-overflow:hover {
+        fill: rgb(255, 187, 0);
+    }
+
+    a .bibi-pinterest:hover {
+        fill: rgb(255, 0, 0);
     }
 }
 
@@ -526,6 +886,55 @@ a svg {
     .social-tags a :hover {
         fill: brown;
     }
+
+    /* logo color */
+    a .bibi-linkedin {
+        transition-duration: .5s;
+    }
+
+    a .bibi-facebook {
+        transition-duration: .5s;
+    }
+
+    a .bibi-twitter {
+        transition-duration: .5s;
+    }
+
+    a .bibi-linkedin {
+        transition-duration: .5s;
+    }
+
+    a .bibi-stack-overflow {
+        transition-duration: .5s;
+    }
+
+    a .bibi-pinterest {
+        transition-duration: .5s;
+    }
+
+    a .instagram:hover {
+        fill: #333;
+    }
+
+    a .bibi-linkedin:hover {
+        fill: rgb(8, 0, 255);
+    }
+
+    a .bibi-facebook:hover {
+        fill: rgb(0, 110, 255);
+    }
+
+    a .bibi-twitter:hover {
+        fill: rgb(0, 170, 255);
+    }
+
+    a .bibi-stack-overflow:hover {
+        fill: rgb(255, 187, 0);
+    }
+
+    a .bibi-pinterest:hover {
+        fill: rgb(255, 0, 0);
+    }
 }
 
 @media screen and (max-width:70px) {
@@ -593,5 +1002,54 @@ a svg {
 
     .social-tags a :hover {
         fill: brown;
+    }
+
+    /* logo color */
+    a .bibi-linkedin {
+        transition-duration: .5s;
+    }
+
+    a .bibi-facebook {
+        transition-duration: .5s;
+    }
+
+    a .bibi-twitter {
+        transition-duration: .5s;
+    }
+
+    a .bibi-linkedin {
+        transition-duration: .5s;
+    }
+
+    a .bibi-stack-overflow {
+        transition-duration: .5s;
+    }
+
+    a .bibi-pinterest {
+        transition-duration: .5s;
+    }
+
+    a .instagram:hover {
+        fill: #333;
+    }
+
+    a .bibi-linkedin:hover {
+        fill: rgb(8, 0, 255);
+    }
+
+    a .bibi-facebook:hover {
+        fill: rgb(0, 110, 255);
+    }
+
+    a .bibi-twitter:hover {
+        fill: rgb(0, 170, 255);
+    }
+
+    a .bibi-stack-overflow:hover {
+        fill: rgb(255, 187, 0);
+    }
+
+    a .bibi-pinterest:hover {
+        fill: rgb(255, 0, 0);
     }
 }
