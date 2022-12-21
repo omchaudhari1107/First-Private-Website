@@ -1,4 +1,5 @@
-* { -webkit-tap-highlight-color: transparent;
+* {
+    -webkit-tap-highlight-color: transparent;
     margin: 0;
     padding: 0;
     color: white;
@@ -8,6 +9,7 @@
     display: flex;
     flex-direction: row;
     /* using relative positon we can writ from navbar */
+    justify-content: center;
     position: relative;
     background-color: black;
     width: 100%;
@@ -35,22 +37,28 @@
 }
 
 #navbar ul li a {
-    
-        -webkit-tap-highlight-color: transparent;
 
-    
+    -webkit-tap-highlight-color: transparent;
+
+
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
     transition-duration: .4s;
     padding: 3px 0px;
 }
 
-#navbar ul li a:hover { -webkit-tap-highlight-color: transparent;
-    border-radius: 14px;
-    background-color: white;
-    color: black;
+#navbar ul li a:hover {
+    -webkit-tap-highlight-color: transparent;
+    /* border-radius: 14px; */
+    /* background-color: white; */
+    border-bottom: 3px solid rgb(210, 210, 210);
+    padding-bottom: 7px;
+    border-radius: 5px;
+    color: rgb(210, 210, 210);
 }
-
+#navbar ul li a:active{
+    color: aqua;
+}
 @media only screen and (max-width: 505px) {
     #navbar {
         display: flex;
@@ -61,6 +69,7 @@
     .name {
         text-align: center;
     }
+
     #navbar ul {
         display: flex;
         margin: auto;
@@ -80,7 +89,8 @@
         padding: 3px 0px;
     }
 
-    #navbar ul li a:hover { -webkit-tap-highlight-color: transparent;
+    #navbar ul li a:hover {
+        -webkit-tap-highlight-color: transparent;
         border-radius: 10px;
         background-color: white;
         color: black;
@@ -99,6 +109,7 @@
         font-size: 1rem;
         text-align: center;
     }
+
     #navbar ul {
         display: flex;
         margin: auto;
@@ -118,7 +129,8 @@
         padding: 3px 0px;
     }
 
-    #navbar ul li a:hover { -webkit-tap-highlight-color: transparent;
+    #navbar ul li a:hover {
+        -webkit-tap-highlight-color: transparent;
         border-radius: 10px;
         background-color: white;
         color: black;
@@ -131,13 +143,14 @@
         flex-direction: column;
         position: relative;
         background-color: black;
-        overflow-x:auto ;
+        overflow-x: auto;
     }
 
     .name {
         font-size: .7rem;
         text-align: center;
     }
+
     #navbar ul {
         display: flex;
         margin: auto;
@@ -157,7 +170,8 @@
         padding: 3px 0px;
     }
 
-    #navbar ul li a:hover { -webkit-tap-highlight-color: transparent;
+    #navbar ul li a:hover {
+        -webkit-tap-highlight-color: transparent;
         border-radius: 10px;
         background-color: white;
         color: black;
@@ -165,19 +179,20 @@
 }
 
 
-@media screen and (max-width:169px){
+@media screen and (max-width:169px) {
     #navbar {
         display: flex;
         flex-direction: column;
         position: relative;
         background-color: black;
-        overflow-x:auto ;
+        overflow-x: auto;
     }
 
     .name {
         font-size: .5rem;
         text-align: center;
     }
+
     #navbar ul {
         display: flex;
         margin: auto;
@@ -190,7 +205,7 @@
     }
 
     #navbar ul li a {
-        
+
         text-decoration: none;
         font-family: 'Oswald', sans-serif;
         transition-duration: .4s;
@@ -205,19 +220,20 @@
 }
 
 
-@media screen and (max-width:151px){
+@media screen and (max-width:151px) {
     #navbar {
         display: flex;
         flex-direction: column;
         position: relative;
         background-color: black;
-        overflow-x:auto ;
+        overflow-x: auto;
     }
 
     .name {
         font-size: .2rem;
         text-align: center;
     }
+
     #navbar ul {
         display: flex;
         margin: auto;
